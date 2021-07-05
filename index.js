@@ -238,7 +238,7 @@ function appMenu() {
 
   function buildTeam() {
     // Create the output directory if the output path doesn't exist
-    if (!fs.existsSync(OUTPUT_DIR)) {
+    if (!fs.existsSync()) {
       fs.mkdirSync(OUTPUT_DIR)
     }
     fs.writeFileSync(outputPath, render(teamMembers), "utf-8");
