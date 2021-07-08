@@ -1,4 +1,4 @@
-function createTeam(answers) {
+function render(answers) {
 
     return ''
 }
