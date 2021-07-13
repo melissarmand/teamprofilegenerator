@@ -1,10 +1,4 @@
-const template = require("@babel/core");
 
-
-function render(teamMembers) {
-    console.log(teamMembers);
-    console.log(teamMembers[0].name);
-    return `
     <!DOCTYPE html>
     <html lang="en">
         <head>
@@ -27,25 +21,25 @@ function render(teamMembers) {
             <div class="container">
               <div class="row">
                 <div class="col-sm-4">
-                  <h3>${teamMembers[0].name}</h3>
+                  <h3>me</h3>
                   <p>Manager</p>
-                  <p>ID: ${teamMembers[0].id}</p>
-                  <p>Email: ${teamMembers[0].email}</p>
-                  <p>Office Number: ${teamMembers[0].officeNumber}</p>
+                  <p>ID: 1</p>
+                  <p>Email: me@me.com</p>
+                  <p>Office Number: 1</p>
                 </div>
                 <div class="col-sm-4">
-                  <h3>${teamMembers[1].name}</h3>
+                  <h3>Daddy</h3>
                   <p>Engineer</p>
-                  <p>ID: ${teamMembers[1].id}</p>
-                  <p>Email: ${teamMembers[1].email}</p>
-                  <a href="${teamMembers[1].github}">Link to my GitHub</a>
+                  <p>ID: 2</p>
+                  <p>Email: daddy@me.com</p>
+                  <a href="Daddy">Link to my GitHub</a>
                 </div>
                 <div class="col-sm-4">
-                  <h3>${teamMembers[2].name}</h3>        
+                  <h3>Russell</h3>        
                   <p>Intern</p>
-                  <p>ID: ${teamMembers[2].id}</p>
-                  <p>Email: ${teamMembers[2].email}</p>
-                  <p>School: ${teamMembers[2].school}</p>
+                  <p>ID: 3</p>
+                  <p>Email: russell@me.com</p>
+                  <p>School: Russell u</p>
                 </div>
               </div>
             </div>
@@ -56,7 +50,4 @@ function render(teamMembers) {
     <script src = "../src/page-template.js"></script>
     </html>
           
-         `;
-}
-
-module.exports = render;
+         
