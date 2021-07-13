@@ -35,7 +35,9 @@ THEN I exit the application, and the HTML is generated
 ```
 
 ## Mock-Up
-![GIF of Working Code]()
+![GIF of Working Code](assets/Team%20Profile%20Generator%20GIF.gif)
+
+![Link to Video](https://drive.google.com/file/d/1-wzbeeug1RyJ67UgXdZdCr7ob28oXLkU/view)
 
 ![Screenshot](assets/Capture.PNG)
 
