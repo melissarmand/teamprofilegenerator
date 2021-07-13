@@ -35,5 +35,13 @@ THEN I exit the application, and the HTML is generated
 ```
 
 ## Mock-Up
+![GIF of Working Code]()
+
+![Screenshot](assets/Capture.PNG)
+
+## Questions
+Email: [Melissa Armand](mailto:melissarmand@gmail.com)
+
+Github Link: [Melissa Armand](https://github.com/melissarmand)
 
 
